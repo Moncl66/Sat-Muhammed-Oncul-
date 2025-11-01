@@ -1,8 +1,66 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿// Views/Home/Index.cshtml - GÜNCELLENMİŞ (Akıllı Sürüm)
+
+@using Microsoft.AspNetCore.Identity
+@using AidatTakipSistemi.Models
+@inject SignInManager<ApplicationUser> SignInManager
+
+@{
+    ViewData["Title"] = "Ana Sayfa";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container my-5">
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+
+            <h1 class="display-4 fw-bold lh-1 text-body-emphasis">
+                Apartman Aidat Takip Sistemi
+            </h1>
+
+            <p class="lead">
+                Hoş geldiniz. Bu sistem, apartman yöneticilerinin daire, aidat ve ödeme kayıtlarını
+                dijital ortamda kolayca yönetmesini sağlar. Sakinler, sisteme giriş yaparak
+                kendi borç durumlarını şeffaf bir şekilde takip edebilirler.
+            </p>
+            <hr />
+
+            @if (!SignInManager.IsSignedIn(User))
+            {
+                <p>
+                    Lütfen sistemdeki kayıtlarınızı görüntülemek için giriş yapın veya
+                    yeni bir hesap oluşturun.
+                </p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                    <a asp-controller="Account" asp-action="Login" class="btn btn-primary btn-lg px-4 me-md-2">
+                        Giriş Yap
+                    </a>
+                    <a asp-controller="Account" asp-action="Register" class="btn btn-outline-secondary btn-lg px-4">
+                        Kayıt Ol
+                    </a>
+                </div>
+            }
+            else
+            {
+                <p>
+                    Sisteme hoş geldiniz! Lütfen işlemlerinize devam etmek için
+                    üst menüdeki bağlantıları kullanın.
+                </p>
+
+                @if (User.IsInRole("Daire Sakini"))
+                {
+                    <a asp-controller="Sakin" asp-action="Index" class="btn btn-primary btn-lg px-4 me-md-2">
+                        Borçlarımı Görüntüle
+                    </a>
+                }
+                @if (User.IsInRole("Yönetici"))
+                {
+                    <a asp-controller="Daireler" asp-action="Index" class="btn btn-primary btn-lg px-4 me-md-2">
+                        Yönetim Paneline Git
+                    </a>
+                }
+            }
+
+        </div>
+        <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg d-none d-lg-block">
+        </div>
+    </div>
 </div>

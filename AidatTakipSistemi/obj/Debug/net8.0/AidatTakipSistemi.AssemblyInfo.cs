@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AidatTakipSistemi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+753c2ae029665d43a96bb4d1b8300122f31bfd5d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+89d6280fda92da64dc4fbb29cb9cfd303e13ad11")]
 [assembly: System.Reflection.AssemblyProductAttribute("AidatTakipSistemi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AidatTakipSistemi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
