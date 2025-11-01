@@ -1,0 +1,55 @@
+﻿// Views/Odemeler/Index.cshtml
+@model IEnumerable<AidatTakipSistemi.Models.Odeme>
+
+@{
+    ViewData["Title"] = "Ödeme Listesi";
+}
+
+<h1>Alınan Ödemeler Listesi</h1>
+
+<p>
+    <a asp-action="Create">Yeni Ödeme Kaydı Gir</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Daire Bilgisi
+            </th>
+            <th>
+                Aidat Dönemi
+            </th>
+            <th>
+                Ödenen Tutar
+            </th>
+            <th>
+                Ödeme Tarihi
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @(item.Aidat?.Daire?.Blok) Blok, No: @(item.Aidat?.Daire?.DaireNo)
+                </td>
+                <td>
+                    @(item.Aidat?.Donem.ToString("MMMM yyyy"))
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OdenenTutar)
+                </td>
+                <td>
+                    @item.OdemeTarihi.ToString("dd.MM.yyyy")
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Düzenle</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Detay</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Sil</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

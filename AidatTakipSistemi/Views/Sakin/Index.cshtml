@@ -1,0 +1,48 @@
+﻿// Views/Sakin/Index.cshtml
+@model IEnumerable<AidatTakipSistemi.Models.Aidat>
+
+@{
+    ViewData["Title"] = "Aidat ve Borçlarım";
+}
+
+<h1>Aidat ve Borçlarım</h1>
+<p>
+    Bu sayfada, dairenize ait geçmiş ve güncel tüm aidat kayıtlarını görebilirsiniz.
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Dönem</th>
+            <th>Tutar</th>
+            <th>Son Ödeme Tarihi</th>
+            <th>Ödeme Durumu</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr class="@(item.OdendiMi ? "" : "table-danger")">
+                <td>
+                    @item.Donem.ToString("MMMM yyyy")
+                </td>
+                <td>
+                    @item.Tutar TL
+                </td>
+                <td>
+                    @item.SonOdemeTarihi.ToString("dd.MM.yyyy")
+                </td>
+                <td>
+                    @if (item.OdendiMi)
+                    {
+                        <span class="text-success">Ödendi</span>
+                    }
+                    else
+                    {
+                        <span class="text-danger">Ödenmedi</span>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,61 @@
+﻿// Views/Aidatlar/Index.cshtml - DÜZELTİLMİŞ KOD
+@model IEnumerable<AidatTakipSistemi.Models.Aidat>
+
+@{
+    ViewData["Title"] = "Aidat Listesi";
+}
+
+<h1>Aidat Listesi</h1>
+
+<p>
+    <a asp-action="Create">Yeni Aidat Kaydı Oluştur</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Daire
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Donem)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tutar)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SonOdemeTarihi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OdendiMi)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @(item.Daire?.Blok) Blok, No: @(item.Daire?.DaireNo)
+                </td>
+                <td>
+                    @item.Donem.ToString("MMMM yyyy")
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Tutar)
+                </td>
+                <td>
+                    @item.SonOdemeTarihi.ToString("dd.MM.yyyy")
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OdendiMi)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Düzenle</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Detay</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Sil</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

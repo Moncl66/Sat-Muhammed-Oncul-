@@ -1,0 +1,50 @@
+﻿// Views/Odemeler/Edit.cshtml
+@model AidatTakipSistemi.Models.Odeme
+
+@{
+    ViewData["Title"] = "Ödeme Kaydını Düzenle";
+}
+
+<h1>Ödeme Kaydını Düzenle</h1>
+<h4>Ödeme Bilgileri</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <input type="hidden" asp-for="Id" />
+
+            <div class="form-group">
+                <label asp-for="AidatId" class="control-label">Aidat</label>
+                <select asp-for="AidatId" class="form-control" asp-items="@(ViewData["AidatId"] as SelectList)">
+                    <option value="">-- Lütfen bir aidat seçin --</option>
+                </select>
+                <span asp-validation-for="AidatId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="OdenenTutar" class="control-label">Ödenen Tutar</label>
+                <input asp-for="OdenenTutar" class="form-control" type="number" step="0.01" />
+                <span asp-validation-for="OdenenTutar" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OdemeTarihi" class="control-label"></label>
+                <input asp-for="OdemeTarihi" class="form-control" type="date" />
+                <span asp-validation-for="OdemeTarihi" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Kaydet" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<br />
+<div>
+    <a asp-action="Index">Listeye Geri Dön</a>
+</div>
+
+@{
+    await Html.RenderPartialAsync("_ValidationScriptsPartial");
+}

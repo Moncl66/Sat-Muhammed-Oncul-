@@ -1,0 +1,41 @@
+﻿// Views/Daireler/Index.cshtml
+@model IEnumerable<AidatTakipSistemi.Models.Daire>
+
+@{
+    ViewData["Title"] = "Daire Listesi";
+}
+
+<h1>Daire Listesi</h1>
+
+<p>
+    <a asp-action="Create">Yeni Daire Ekle</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Blok)</th>
+            <th>@Html.DisplayNameFor(model => model.Kat)</th>
+            <th>@Html.DisplayNameFor(model => model.DaireNo)</th>
+            <th>@Html.DisplayNameFor(model => model.SahipAdi)</th>
+            <th>@Html.DisplayNameFor(model => model.SakinAdi)</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Blok)</td>
+                <td>@Html.DisplayFor(modelItem => item.Kat)</td>
+                <td>@Html.DisplayFor(modelItem => item.DaireNo)</td>
+                <td>@Html.DisplayFor(modelItem => item.SahipAdi)</td>
+                <td>@Html.DisplayFor(modelItem => item.SakinAdi)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Düzenle</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Detay</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Sil</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

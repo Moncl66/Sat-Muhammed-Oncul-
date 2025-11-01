@@ -1,0 +1,61 @@
+﻿// Views/Aidatlar/Edit.cshtml
+@model AidatTakipSistemi.Models.Aidat
+
+@{
+    ViewData["Title"] = "Aidat Kaydını Düzenle";
+}
+
+<h1>Aidat Kaydını Düzenle</h1>
+<h4>Aidat Bilgileri</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <input type="hidden" asp-for="Id" />
+
+            <div class="form-group">
+                <label asp-for="DaireId" class="control-label">Daire</label>
+                <select asp-for="DaireId" class="form-control" asp-items="@(ViewData["DaireId"] as SelectList)">
+                    <option value="">-- Lütfen bir daire seçin --</option>
+                </select>
+                <span asp-validation-for="DaireId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Donem" class="control-label">Dönem (Ay ve Yıl)</label>
+                <input asp-for="Donem" class="form-control" type="date" />
+                <span asp-validation-for="Donem" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Tutar" class="control-label"></label>
+                <input asp-for="Tutar" class="form-control" type="number" step="0.01" />
+                <span asp-validation-for="Tutar" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SonOdemeTarihi" class="control-label"></label>
+                <input asp-for="SonOdemeTarihi" class="form-control" type="date" />
+                <span asp-validation-for="SonOdemeTarihi" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="OdendiMi" /> @Html.DisplayNameFor(model => model.OdendiMi)
+                </label>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Kaydet" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<br />
+<div>
+    <a asp-action="Index">Listeye Geri Dön</a>
+</div>
+
+@{
+    await Html.RenderPartialAsync("_ValidationScriptsPartial");
+}

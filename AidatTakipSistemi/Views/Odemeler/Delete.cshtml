@@ -1,0 +1,47 @@
+﻿// Views/Odemeler/Delete.cshtml
+@model AidatTakipSistemi.Models.Odeme
+
+@{
+    ViewData["Title"] = "Ödeme Kaydını Sil";
+}
+
+<h1>Ödeme Kaydını Sil</h1>
+
+<h3>Bu ödeme kaydını silmek istediğinizden emin misiniz?</h3>
+<h4>Bu işlem, ilgili aidatı "ÖDENMEDİ" olarak geri işaretleyecektir.</h4>
+<div>
+    <h4>Ödeme Bilgileri</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-3">
+            Daire Bilgisi
+        </dt>
+        <dd class="col-sm-9">
+            @(Model.Aidat?.Daire?.Blok) Blok, No: @(Model.Aidat?.Daire?.DaireNo)
+        </dd>
+        <dt class="col-sm-3">
+            Aidat Dönemi
+        </dt>
+        <dd class="col-sm-9">
+            @(Model.Aidat?.Donem.ToString("MMMM yyyy"))
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.OdenenTutar)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.OdenenTutar)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.OdemeTarihi)
+        </dt>
+        <dd class="col-sm-9">
+            @Model.OdemeTarihi.ToString("dd.MM.yyyy")
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Sil" class="btn btn-danger" /> |
+        <a asp-action="Index">Listeye Geri Dön</a>
+    </form>
+</div>

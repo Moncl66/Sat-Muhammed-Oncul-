@@ -1,0 +1,49 @@
+﻿// Views/Aidatlar/Details.cshtml
+@model AidatTakipSistemi.Models.Aidat
+
+@{
+    ViewData["Title"] = "Aidat Kaydı Detayları";
+}
+
+<h1>Aidat Kaydı Detayları</h1>
+
+<div>
+    <h4>Aidat Bilgileri</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Daire
+        </dt>
+        <dd class="col-sm-10">
+            @(Model.Daire?.Blok) Blok, No: @(Model.Daire?.DaireNo)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Donem)
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Donem.ToString("MMMM yyyy")
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Tutar)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Tutar)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.SonOdemeTarihi)
+        </dt>
+        <dd class="col-sm-10">
+            @Model.SonOdemeTarihi.ToString("dd.MM.yyyy")
+        </dd>
+        <dt classs="col-sm-2">
+            @Html.DisplayNameFor(model => model.OdendiMi)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.OdendiMi)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Düzenle</a> |
+    <a asp-action="Index">Listeye Geri Dön</a>
+</div>

@@ -1,0 +1,708 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AC80F682-3D55-C8F8-4895-A4A9EDD49434}|\u00C7\u00F6z\u00FCm \u00D6\u011Feleri{AC80F682-3D55-C8F8-4895-A4A9EDD49434}|D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\.gitignore.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{AC80F682-3D55-C8F8-4895-A4A9EDD49434}|\u00C7\u00F6z\u00FCm \u00D6\u011Feleri{AC80F682-3D55-C8F8-4895-A4A9EDD49434}|solutionrelative:.gitignore.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\aidattakipsistemi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:aidattakipsistemi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\views\\sakin\\daireatanmamis.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:views\\sakin\\daireatanmamis.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\views\\sakin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:views\\sakin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\controllers\\sakincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:controllers\\sakincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\controllers\\aidatlarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:controllers\\aidatlarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\views\\daireler\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:views\\daireler\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\controllers\\dairelercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:controllers\\dairelercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\models\\daire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:models\\daire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\controllers\\odemelercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:controllers\\odemelercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\views\\odemeler\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:views\\odemeler\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\views\\odemeler\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:views\\odemeler\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\views\\odemeler\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:views\\odemeler\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\views\\odemeler\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:views\\odemeler\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\views\\odemeler\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:views\\odemeler\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\views\\aidatlar\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:views\\aidatlar\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\views\\aidatlar\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:views\\aidatlar\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\views\\aidatlar\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:views\\aidatlar\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\views\\aidatlar\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:views\\aidatlar\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\views\\aidatlar\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:views\\aidatlar\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\views\\daireler\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:views\\daireler\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\views\\daireler\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:views\\daireler\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\views\\daireler\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:views\\daireler\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\views\\daireler\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:views\\daireler\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\migrations\\20251030201637_ilkkurulum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:migrations\\20251030201637_ilkkurulum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\aidattakipsistemi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:aidattakipsistemi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\models\\aidat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:models\\aidat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\models\\odeme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:models\\odeme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\migrations\\20251031223930_identitysistemieklendi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:migrations\\20251031223930_identitysistemieklendi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|d:\\github\\apartmanaidattakipsistemi\\aidattakipsistemi\\migrations\\20251101180441_dairekullaniciiliskisieklendi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1FD0BB-1037-4A1F-B790-F11B69908322}|AidatTakipSistemi.csproj|solutionrelative:migrations\\20251101180441_dairekullaniciiliskisieklendi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore.txt",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\.gitignore.txt",
+              "RelativeDocumentMoniker": ".gitignore.txt",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\.gitignore.txt",
+              "RelativeToolTip": ".gitignore.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-11-01T20:10:17.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DaireAtanmamis.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Sakin\\DaireAtanmamis.cshtml",
+              "RelativeDocumentMoniker": "Views\\Sakin\\DaireAtanmamis.cshtml",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Sakin\\DaireAtanmamis.cshtml",
+              "RelativeToolTip": "Views\\Sakin\\DaireAtanmamis.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-01T19:48:39.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Sakin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Sakin\\Index.cshtml",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Sakin\\Index.cshtml",
+              "RelativeToolTip": "Views\\Sakin\\Index.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwC8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-01T19:47:21.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SakinController.cs",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Controllers\\SakinController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SakinController.cs",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Controllers\\SakinController.cs",
+              "RelativeToolTip": "Controllers\\SakinController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAkwDQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T18:51:14.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20251101180441_DaireKullaniciIliskisiEklendi.cs",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Migrations\\20251101180441_DaireKullaniciIliskisiEklendi.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251101180441_DaireKullaniciIliskisiEklendi.cs",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Migrations\\20251101180441_DaireKullaniciIliskisiEklendi.cs",
+              "RelativeToolTip": "Migrations\\20251101180441_DaireKullaniciIliskisiEklendi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T18:04:41.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAkwCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T22:44:24.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwDsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T22:42:29.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAkwEkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-30T23:29:42.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AidatTakipSistemi.csproj",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\AidatTakipSistemi.csproj",
+              "RelativeDocumentMoniker": "AidatTakipSistemi.csproj",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\AidatTakipSistemi.csproj",
+              "RelativeToolTip": "AidatTakipSistemi.csproj",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwAwAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-30T20:02:03.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DairelerController.cs",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Controllers\\DairelerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DairelerController.cs",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Controllers\\DairelerController.cs",
+              "RelativeToolTip": "Controllers\\DairelerController.cs",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAA7wLIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T22:54:27.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AidatlarController.cs",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Controllers\\AidatlarController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AidatlarController.cs",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Controllers\\AidatlarController.cs",
+              "RelativeToolTip": "Controllers\\AidatlarController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T23:13:08.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OdemelerController.cs",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Controllers\\OdemelerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OdemelerController.cs",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Controllers\\OdemelerController.cs",
+              "RelativeToolTip": "Controllers\\OdemelerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T21:06:03.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Daire.cs",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Models\\Daire.cs",
+              "RelativeDocumentMoniker": "Models\\Daire.cs",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Models\\Daire.cs",
+              "RelativeToolTip": "Models\\Daire.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwA8AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T17:31:58.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Daireler\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Daireler\\Edit.cshtml",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Daireler\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Daireler\\Edit.cshtml",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAkwEIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-30T23:04:07.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T22:37:13.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA5wCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T20:11:58.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAkwCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T22:44:50.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "Data\\DbInitializer.cs",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "Data\\DbInitializer.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAkwDYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T22:56:05.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\AccessDenied.cshtml",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeToolTip": "Views\\Account\\AccessDenied.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T23:11:36.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAgwCMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T18:32:35.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoginViewModel.cs",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T22:41:57.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Models\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\RegisterViewModel.cs",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Models\\RegisterViewModel.cs",
+              "RelativeToolTip": "Models\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwBQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T22:41:20.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "20251031223930_IdentitySistemiEklendi.cs",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Migrations\\20251031223930_IdentitySistemiEklendi.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251031223930_IdentitySistemiEklendi.cs",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Migrations\\20251031223930_IdentitySistemiEklendi.cs",
+              "RelativeToolTip": "Migrations\\20251031223930_IdentitySistemiEklendi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T22:39:31.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Odemeler\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Odemeler\\Details.cshtml",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Odemeler\\Details.cshtml",
+              "RelativeToolTip": "Views\\Odemeler\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T22:33:46.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Odemeler\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Odemeler\\Delete.cshtml",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Odemeler\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Odemeler\\Delete.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAkwC4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T22:09:58.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Odemeler\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Odemeler\\Edit.cshtml",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Odemeler\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Odemeler\\Edit.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T21:56:15.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Odemeler\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Odemeler\\Create.cshtml",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Odemeler\\Create.cshtml",
+              "RelativeToolTip": "Views\\Odemeler\\Create.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAowC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T21:52:32.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Odemeler\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Odemeler\\Index.cshtml",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Odemeler\\Index.cshtml",
+              "RelativeToolTip": "Views\\Odemeler\\Index.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAkwDYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T21:45:24.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Aidatlar\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Aidatlar\\Delete.cshtml",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Aidatlar\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Aidatlar\\Delete.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAowDMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-30T23:23:40.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Aidatlar\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Aidatlar\\Details.cshtml",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Aidatlar\\Details.cshtml",
+              "RelativeToolTip": "Views\\Aidatlar\\Details.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-30T23:24:50.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Aidatlar\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Aidatlar\\Edit.cshtml",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Aidatlar\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Aidatlar\\Edit.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAowDwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-30T23:22:08.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Aidatlar\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Aidatlar\\Create.cshtml",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Aidatlar\\Create.cshtml",
+              "RelativeToolTip": "Views\\Aidatlar\\Create.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAkwDoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-30T23:20:30.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Aidatlar\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Aidatlar\\Index.cshtml",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Aidatlar\\Index.cshtml",
+              "RelativeToolTip": "Views\\Aidatlar\\Index.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAkwDwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-30T23:15:34.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Daireler\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Daireler\\Details.cshtml",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Daireler\\Details.cshtml",
+              "RelativeToolTip": "Views\\Daireler\\Details.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwCAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-30T23:09:36.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Daireler\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Daireler\\Delete.cshtml",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Daireler\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Daireler\\Delete.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwCMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-30T23:08:14.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Daireler\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Daireler\\Create.cshtml",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Daireler\\Create.cshtml",
+              "RelativeToolTip": "Views\\Daireler\\Create.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAkwDYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-30T22:59:39.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Daireler\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Daireler\\Index.cshtml",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Views\\Daireler\\Index.cshtml",
+              "RelativeToolTip": "Views\\Daireler\\Index.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAkwCgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-30T22:56:20.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20251030201637_IlkKurulum.cs",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Migrations\\20251030201637_IlkKurulum.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251030201637_IlkKurulum.cs",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Migrations\\20251030201637_IlkKurulum.cs",
+              "RelativeToolTip": "Migrations\\20251030201637_IlkKurulum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T20:16:37.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AidatTakipSistemi",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\AidatTakipSistemi.csproj",
+              "RelativeDocumentMoniker": "AidatTakipSistemi.csproj",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\AidatTakipSistemi.csproj",
+              "RelativeToolTip": "AidatTakipSistemi.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-30T20:06:43.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T19:56:06.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-30T18:37:07.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Odeme.cs",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Models\\Odeme.cs",
+              "RelativeDocumentMoniker": "Models\\Odeme.cs",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Models\\Odeme.cs",
+              "RelativeToolTip": "Models\\Odeme.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T17:34:19.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Aidat.cs",
+              "DocumentMoniker": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Models\\Aidat.cs",
+              "RelativeDocumentMoniker": "Models\\Aidat.cs",
+              "ToolTip": "D:\\GitHub\\ApartmanAidatTakipSistemi\\AidatTakipSistemi\\Models\\Aidat.cs",
+              "RelativeToolTip": "Models\\Aidat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T17:34:00.594Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+# Bu, Visual Studio ve .NET için standart bir .gitignore dosyasýdýr.
+# Geçici dosyalarý, derleme çýktýlarýný ve veritabaný dosyasýný görmezden gelir.
+
+## Genel Visual Studio
+*.sln.doc
+*.suo
+*.user
+*.userosscache
+*.ide
+
+## .vs klasörü (HATANIN KAYNAÐI)
+.vs/
+
+## Derleme Çýktýlarý
+[Bb]in/
+[Oo]bj/
+
+## Veritabaný Dosyalarý
+*.db
+*.db3
+*.mdf
+*.ldf
+
+## Diðer
+*.tmp
+*.temp
+*_session.xml
+*.orig
